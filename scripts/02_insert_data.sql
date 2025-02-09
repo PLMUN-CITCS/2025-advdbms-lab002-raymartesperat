@@ -1,5 +1,5 @@
 /*
-    Filename:       02_insert_data.sql
+    Filename:       scripts\02_insert_data.sql
     Purpose:        Insert data into the database
     Instructions:
     1. Insert the following data into the tblStudents table:
@@ -13,3 +13,8 @@
 
     2. Place your insert queries below this comment
 */
+   INSERT INTO
+      tblStudents (student_name, student_email, student_phone)
+      VALUES
+         ("John Doe", "johndoe@gmail.com", "123-456-7890"),
+         ("Jane Doe", "janedoe@gmail.com", "value123-456-78903");
